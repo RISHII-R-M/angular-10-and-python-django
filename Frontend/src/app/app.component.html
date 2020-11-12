@@ -1,0 +1,36 @@
+<div class="container-fluid" >
+
+<div class="row">
+<div class="col-lg-6">
+
+<div class="  container-fluid align-self-center p-5" >
+<div class=" con pt-5 pb-5">
+
+  <canvas
+      baseChart
+      [chartType]="'line'"
+      [datasets]="chartData"
+      [labels]="year"
+      [options]="lineChartOptions"
+      [legend]="true">
+  </canvas></div>
+</div>
+</div>
+
+
+<div class="col-lg-6">
+
+<div class="  container-fluid align-self-center p-5" >
+<div class=" con pt-5 pb-5">
+
+  <canvas
+      baseChart
+      [chartType]="'line'"
+      [datasets]="chartData1"
+      [labels]="year1"
+      [options]="lineChartOptions1"
+      [legend]="true">
+  </canvas></div>
+
+</div>
+</div>
